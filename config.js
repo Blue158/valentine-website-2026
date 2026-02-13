@@ -15,7 +15,7 @@ const CONFIG = {
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🇷🇺', '🇲🇽', '🇪🇸']                       // Cute bear emojis
+        bears: ['🇷🇺', '🇲🇽', '🇪🇸', '🇷🇺']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -30,7 +30,7 @@ const CONFIG = {
         second: {
             text: "Насколько сильно ты меня любишь?",                          // For the love meter
             startText: "Вот настолько!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            nextBtn: "продолжать ❤️"                                         // Text for the next button
         },
         third: {
             text: "Будешь моей валентинкой 14 февраля 2026 года? 🌹", // The big question!
@@ -42,8 +42,8 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "? 🥰💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
+        extreme: "Столько любви, что все котики мира одновременно замурлыкали 🐱🚀💝",  // Shows when they go past 5000%
+        high: "Это любовь уровня HSK 10 — её невозможно сдать, можно только чувствовать ❤️",              // Shows when they go past 1000%
         normal: "天啊，你这么爱我！🥰"                           // Shows when they go past 100%
     },
 
@@ -81,7 +81,7 @@ const CONFIG = {
         musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+        volume: 1                        // Volume level (0.0 to 1.0)
     }
 };
 
